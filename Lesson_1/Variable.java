@@ -1,5 +1,5 @@
-public class Variable{
-	public static void main(String[] args){
+public class Variable {
+	public static void main(String[] args) {
 		byte ram = 4;
 		short cores = 2;
 		int model = 6420;
@@ -7,7 +7,7 @@ public class Variable{
 		float virtualMemory = 5.94F;
 		double physicalMemory = 3.88;
 		char os  = 'W';
-		boolean ruLangSupport = true;
+		boolean isRuLangSupport = true;
 
 		System.out.println("RAM = " + ram);
 		System.out.println("Cores = " + cores);
