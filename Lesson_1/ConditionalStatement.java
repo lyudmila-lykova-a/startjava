@@ -1,15 +1,15 @@
 public class ConditionalStatement {
-	public static void main (String [] args) {
+	public static void main (String[] args) {
 		int yourAge = 35;
 		if (yourAge > 20) {
 			System.out.println ("you are grownup now");
 		} 
 
-		boolean isYouMale = false;
-		if (isYouMale) {
+		boolean isMale = false;
+		if (isMale) {
 			System.out.println("you are a man");
 		} 
-		if (!isYouMale) {
+		if (!isMale) {
 			System.out.println("you are a woman");
 		}
 
@@ -20,10 +20,10 @@ public class ConditionalStatement {
 			System.out.println ("you are tall");
 		}
 
-		String firstLetterName = "L";
-		if (firstLetterName.charAt (0) == 'M') {
+		char firstLetterName = 'L';
+		if (firstLetterName == 'M') {
 			System.out.println ("your name starts from letter М");
-		} else if (firstLetterName.charAt(0) == 'E') {
+		} else if (firstLetterName == 'E') {
 			System.out.println ("your name starts from letter E");
 		} else {
 			System.out.println ("your name starts from another letter");
